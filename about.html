@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <head>
     <meta charset = "utf-8">
-		<title>Timothy Mwiti | Student</title>
-		<link href="css/normalize.css" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet" />
-		<link href="css/main.css" rel="stylesheet" />
-		<link href="css/responsive.css" rel="stylesheet" />
-		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-	</head>
+      <title>Timothy Mwiti | Student</title>
+      <link href = "css/normalize.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  </head>
 	<body>
 		<header>
 			<a href="index.html" id = "logo">
-        <h1>Timothy Mwiti</h1>
-        <h2>Student</h2>
-      </a>
+		        <h1>Timothy Mwiti</h1>
+		        <h2>Student</h2>
+      		</a>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li class="dropdown">
+    					<a href="randomStuff.html" class="dropbtn">Random Stuff</a>
+   						<div class="dropdown-content">
+	      					<a href="randomStuff.html">Portfolio</a>
+	      					<a href="blog.html">Blog</a>
+	      					<a href="sharedMedia.html">Shared Media</a>
+   						 </div>
+ 					 </li>
 					<li><a class="selected" href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
-
 		<div id="wrapper">
-			<section><img alt="Tim" class="profile-photo" src="img/tim.jpg" />
+			<section id = "secondary"><img alt="Tim" class="profile-photo" src="img/tim.jpg" />
 				<h3>About</h3>
 
 				<p>Hi, I&#39;m Timothy Mwiti.</p>
 
 				<p>I am a rising junior at Northwestern University. I major in Computer Science. My career goal is to eventually start my own software development company in my home country, Kenya.</p>
+				<p>When not drowned in school work, I work as a research assistant/software developer at Assistant Professor Marcelo Worsley's TIILT Lab. Our research is centered around using multimodal
+				technology to understand and improve on how students learn in complex environments.</p>
 
-				<p>Some of my hobbies include cycling, photography, reading and playing video games. Main interests include entrepreneurship and tech.</p>
+				<p>Some of my hobbies include cycling, photography, reading and playing video games. Main interests include entrepreneurship and tech. I am a lover of sports. I enjoy watching
+				soccer (Manchester United fan) as well as the NBA and College Football. I'll have a good time watching any kind of sport.</p>
 
-				<p>Over time I have learnt that one of the most effective way to grow is to talk to people and hear their views. Therefore, I enjoy meeting new people and networking.</p>
+				<p>Over time I have learnt that one of the most effective way to grow is to talk to people and hear their views. Therefore, I enjoy meeting new people and networking. Feel free to reach out through
+				the means on the<a href ="http://timkanake.com/contact.html"> contact</a> page or through my social media below.</p>
 
-				<p>Here&#39s my latest <a href="timothymwiti.pdf">resume</a></p>
-
-				<p>You can follow me on twitter, <a href="http://twitter.com/TimKanake">@TimKanake</a> or see some of my amateur photographs <a href="http://instagram.com/random_by_tim">here</a>.</p>
+				<p>Here&#39s my latest <a href="timothymwiti.pdf">resume</a>.</p>
 			</section>
-
-			<footer>
-        <a href="http://twitter.com/timkanake"><img alt="Twitter logo" class="socialIcon" src="img/twitter_logo.png" /></a>
-				<a href = "http://instagram.com/random_by_tim"><img alt = "Instagram Logo" class = "socialIcon" src = "img/instagram_logo.png"/></a>
-        <a href="http://facebook.com/timkanake"><img alt="Facebook logo" class="socialIcon" src="img/fb_logo.png" /></a>
-        <p>&copy; 2017 Timothy Mwiti.</p>
-			</footer>
 		</div>
+		<footer class = "footer">
+    		<a href="http://twitter.com/timkanake"><img alt="Twitter logo" class="socialIcon" src="img/twitter_logo.png" /></a>
+			<a href = "http://instagram.com/random_by_tim"><img alt = "Instagram Logo" class = "socialIcon" src = "img/instagram_logo.png"/></a>
+    		<a href="http://facebook.com/timkanake"><img alt="Facebook logo" class="socialIcon" src="img/fb_logo.png" /></a>
+    		<p>&copy; 2017 Timothy Mwiti.</p>
+		</footer>
 	</body>
 </html>
