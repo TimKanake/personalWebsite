@@ -8,23 +8,25 @@
     <title>Tim's Library</title>
   </head>
   <body>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="blog.html"><s>Blog</s></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="library.php">Library</a>
-      </li>
-    </ul>
+    <div>
+      <ul class="nav justify-content-end" style="height:40px">
+        <li class="nav-item">
+          <a class="nav-link menu-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-link" href="blog.html"><s>Blog</s></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu-link" href="library.php">Library</a>
+        </li>
+      </ul>
+    </div>
   	<div class="container title-container">
 	      <h1 class="display-4 text-center title-text">Library</h1>
 	      <h3 class="display-5 text-center title-text">2018 Reading List...And Counting.</h3>
@@ -50,7 +52,7 @@
       </ul>
     </div>
     <footer>
-      <div class="container footer-container">
+      <div class="container footer-container custom-fixed-footer">
         <a href="https://twitter.com/timkanake" target="blank" class="tw-ic">
             <i class="fa fa-twitter mr-md-5 mr-3 fa-2x"> </i>
         </a>
