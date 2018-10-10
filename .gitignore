@@ -4,3 +4,6 @@ js/bootstrap*
 img/
 library.csv
 timothymwiti.pdf
+librarydetails.php
+*.sql
+*.json
