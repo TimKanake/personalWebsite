@@ -7,3 +7,6 @@ timothymwiti.pdf
 librarydetails.php
 *.sql
 *.json
+blogposts/
+upload_docs.py
+.idea/
