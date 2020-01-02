@@ -30,6 +30,10 @@ a > small {
     font-size: inherit;
 }
 
+.desktop-text {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .navigation-link {
         font-size: medium;
@@ -40,12 +44,17 @@ a > small {
     }
 }
 
-@media only screen and (min-width: 700px) and (min-height: 950px){
+@media only screen and (min-width: 700px) and (min-height: 890px){
     .fixed-footer {
         position: fixed;
         bottom: 0;
         width: 100%;
         text-align: center;
         left: 0;
+    }
+
+    .desktop-text {
+        display: initial;
+        font-size: inherit;
     }
 }
