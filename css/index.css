@@ -16,3 +16,13 @@ a:hover {
     text-decoration: none;
     border-bottom: 1px solid black;
 }
+
+.navigation-link {
+    color: #9884fc;
+    font-size: large;
+}
+
+.navigation-icon {
+    font-size: xx-large;
+    color: black;
+}
