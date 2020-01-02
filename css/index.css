@@ -1,3 +1,6 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
 .list-inline-item {
     font-size: 30px;
 }
@@ -7,4 +10,9 @@ footer {
     bottom: 0;
     width: 100%;
     height: 7%;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
