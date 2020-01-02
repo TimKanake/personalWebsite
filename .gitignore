@@ -1,12 +1,1 @@
-css/
-js/node_modules
-js/bootstrap*
-img/
-library.csv
-timothymwiti.pdf
-librarydetails.php
-*.sql
-*.json
-blogposts/
-upload_docs.py
-.idea/
+.vscode/
